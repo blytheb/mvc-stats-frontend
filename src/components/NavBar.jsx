@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function NavBar() {
+export default function NavBar({onOpen}) {
   return (
     <>
     <div className="navbar bg-base-100 shadow-sm">
@@ -13,7 +13,7 @@ export default function NavBar() {
             </div>
         </div>
         <div className="navbar-end">
-            <a className="btn">Add Player</a>
+            <a className="btn" onClick={onOpen}>Add Player</a>
         </div>
         </div>
     </>

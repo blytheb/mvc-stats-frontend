@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function TableList(handleOpen) {
+export default function TableList({handleOpen}) {
 
     const playerData = [
         {
